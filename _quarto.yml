@@ -1,0 +1,24 @@
+project:
+  type: website
+    
+
+website:
+  title: "Quarto Hello World website rendered via GitHub Actions + GitHub Pages"
+  navbar:
+    left:
+      - file: index.qmd
+        text: Home
+        
+output:
+  html
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+  pdf:
+    documentclass: article
+    margin-left: 30mm
+    margin-right: 30mm
+    toc: true
