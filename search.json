@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Hello World website rendered via GitHub Actions + GitHub Pages",
+    "title": "Quarto Hello World website",
     "section": "",
-    "text": "Testing out the quarto-dev/quarto-actions/publish@v2 GitHub Actions workflow to automate website GitHub Pages website publishing."
+    "text": "Testing out the quarto-dev/quarto-actions/publish@v2 GitHub Actions workflow to automate website GitHub Pages website publishing.\nSee the website for this repo at https://jpdunc23.github.io/quarto-hello-world/\n\n\n\nMake changes to any file rendered by quarto.\nCommit and push.\nWait for the GitHub action to run.\nChanges should be reflected on live website."
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto Hello World website rendered via GitHub Actions + GitHub Pages</title>
+<title>Quarto Hello World website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list{list-style: none;}
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Hello World website rendered via GitHub Actions + GitHub Pages</span>
+    <span class="navbar-title">Quarto Hello World website</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -90,7 +90,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto-hello-world" id="toc-quarto-hello-world" class="nav-link active" data-scroll-target="#quarto-hello-world"><span>quarto</span> hello world</a></li>
+  <li><a href="#quarto-hello-world" id="toc-quarto-hello-world" class="nav-link active" data-scroll-target="#quarto-hello-world"><span>quarto</span> hello world</a>
+  <ul class="collapse">
+  <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -102,8 +105,18 @@ ul.task-list{list-style: none;}
 <section id="quarto-hello-world" class="level1">
 <h1><a href="https://quarto.org/docs/get-started/">quarto</a> hello world</h1>
 <p>Testing out the <a href="https://github.com/quarto-dev/quarto-actions/tree/main/publish">quarto-dev/quarto-actions/publish@v2</a> GitHub Actions workflow to automate website GitHub Pages website publishing.</p>
+<p>See the website for this repo at https://jpdunc23.github.io/quarto-hello-world/</p>
+<section id="usage" class="level2">
+<h2 class="anchored" data-anchor-id="usage">Usage:</h2>
+<ol type="1">
+<li>Make changes to any file rendered by quarto.</li>
+<li>Commit and push.</li>
+<li>Wait for the <a href="https://github.com/jpdunc23/quarto-hello-world/actions">GitHub action</a> to run.</li>
+<li>Changes should be reflected on live website.</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
