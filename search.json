@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Hello World website rendered via GitHub Actions + GitHub Pages",
+    "section": "",
+    "text": "Testing out the quarto-dev/quarto-actions/publish@v2 GitHub Actions workflow to automate website GitHub Pages website publishing."
+  }
+]
