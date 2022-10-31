@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/jpdunc23/quarto-hello-world/index.html</loc>
-    <lastmod>2022-08-22T20:03:21.858Z</lastmod>
+    <lastmod>2022-10-31T18:03:46.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/jpdunc23/quarto-hello-world/figures.html</loc>
+    <lastmod>2022-10-31T18:04:28.820Z</lastmod>
   </url>
 </urlset>
