@@ -1,0 +1,16 @@
+{
+  "hash": "1811107ea58d8bb9e775ebf4deb3988c",
+  "result": {
+    "markdown": "---\ntitle: \"Figures\"\nformat:\n  html:\n    theme: cosmo\n    css: ../styles.css\n    toc: true\n    code-copy: true\n    code-block-background: true\nexecute:\n  freeze: auto\n---\n\n\n# An example figure\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndata(iris)\nplot(iris$Sepal.Width, iris$Sepal.Length)\n```\n\n::: {.cell-output-display}\n![](figures_files/figure-html/fig1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "figures_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

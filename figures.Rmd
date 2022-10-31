@@ -1,0 +1,19 @@
+---
+title: "Figures"
+format:
+  html:
+    theme: cosmo
+    css: ../styles.css
+    toc: true
+    code-copy: true
+    code-block-background: true
+execute:
+  freeze: auto
+---
+
+# An example figure
+
+```{r fig1}
+data(iris)
+plot(iris$Sepal.Width, iris$Sepal.Length)
+```

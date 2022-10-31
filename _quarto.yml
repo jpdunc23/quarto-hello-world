@@ -8,6 +8,8 @@ website:
     left:
       - file: index.qmd
         text: Home
+      - file: figures.Rmd
+        text: Figures
         
 output:
   html
